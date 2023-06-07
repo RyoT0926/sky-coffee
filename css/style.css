@@ -1,0 +1,158 @@
+@charset "UTF-8";
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  transition: .3s;
+  color: black;
+}
+a:hover {
+  opacity: .8;
+}
+
+header {
+  padding: 50px 0;
+}
+.logo {
+  text-align: center;
+}
+
+.wrap {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 30px;
+}
+/* main vs */
+
+
+/* global-nav */
+.global-nav {
+  margin-top: 40px;
+}
+
+.global-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+
+/* concept */
+.concept {
+  margin-top: 90px;
+}
+
+.concept > .container {
+  display: flex;
+  align-items: center;
+}
+.concept .img{
+  width: 50%;
+
+}
+.concept .disc {
+  margin-left: 40px;
+}
+
+.concept .subtitle {
+  font-size: 16px;
+}
+.concept h2 {
+
+  color: #24a8bf;
+  margin-top: 25px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.concept p {
+  font-size: 16px;
+  margin-top: 40px;
+  
+}
+
+/* blog */
+.blog {
+  margin-top: 100px;
+}
+.blog .title {
+  font-size: 32px;
+  color: #24a8bf;
+  text-align: center;
+  line-height: 1;
+}
+.blog .subtitle {
+  font-size: 13px;
+  color: black;
+  margin-top: 10px;
+  line-height: 1;
+}
+
+.blog .list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 30px;
+}
+
+.blog .list .item {
+ width: calc((100% - 60px) / 3);
+}
+
+.blog .list .item:hover {
+  opacity: .8;
+}
+
+.blog-title {
+  font-size: 15px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+/* .btn */
+.btn {
+  margin-top: 30px;
+  margin-left: 50%;
+  translate: -50% 0;
+  width: 220px;
+  height: 50px;
+  color: #24a8bf;
+  background-color: #fff;
+  border: 1px solid #24a8bf;
+  border-radius: 3px;
+  position: relative;
+}
+.btn::after {
+  content: "";
+  background-image: url(../imges/icon_arrow-right.png);
+  background-repeat: no-repeat;
+  background-size: 5px 9px;
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 9px;
+}
+
+/* footer */
+.footer {
+  margin-top: 50px;
+  background-color: black;
+  height: 198px;
+  padding: 70px 0 30px;
+}
+
+.footer .logo {
+  margin: 0 auto;
+  width: 180px;
+}
+.copyright {
+  margin-top: 50px;
+  color:#8B8B8B ;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+}
